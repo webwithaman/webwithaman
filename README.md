@@ -45,6 +45,8 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 * ✉️  You can contact me at [webwithaman06@gmail.com](mailto:webwithaman06@gmail.com)
 * 🧠  I'm learning React.js, Next.js, Node.js, TypeScript
 
+---
+
 ### Skills
 
 
