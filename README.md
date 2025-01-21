@@ -1,55 +1,43 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Aman Kumar
 ==================================================================================================================================
 
-✨ Aspiring Software Developer 👨‍💻
+# ✨ Aspiring Software Developer 👨‍💻
 -----------------------------------
 
-Aspiring Software Developer 👨‍💻 | Passionate about building scalable web platforms 🚀
+## ⭐ Key Skills & Technologies:
 
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, ReactJS, Next.js  
+- **Backend**: MERN Stack (MongoDB, Express.js, React, Node.js)  
+- **Programming Languages**: C, C++, JavaScript  
+- **Core Concepts**: Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating System (OS), Networking  
+- **Tools**: Git, GitHub, Chrome DevTools, VS Code  
+- **Currently Exploring**: TypeScript, Next.js, advanced React concepts  
 
-⭐ Key Skills & Technologies:
+---
 
-▪ Frontend: HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, ReactJS, Next.js 
+## ⭐ What I Bring:
 
-▪ Backend: MERN Stack (MongoDB, Express.js, React, Node.js) 
+- 🔑 Strong foundation in OOP, DBMS, and Networking.  
+- 💡 Practical experience in building user-centric, scalable web applications.  
+- ⚖️ Focused approach to web development, balancing performance and user experience.  
+- 📈 Eagerness to learn and adapt to new technologies, without overstating broad skillsets.  
 
-▪ Programming Languages: C, C++, JavaScript 
+---
 
-▪ Core Concepts: Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating System (OS), Networking 
+## ⭐ Let’s Collaborate!
 
-▪ Tools: Git, GitHub, Chrome DevTools, VS Code 
+- 🌍 Currently looking for opportunities to apply my skills to real-world challenges and continue growing as a developer.  
+- 🎯 Focused on impactful, meaningful work that delivers results.  
 
-▪ Currently Exploring: TypeScript, Next.js, advanced React concepts 
+---
 
+## ⭐ Contact / Meet Me:
 
-⭐ What I Bring: 
-🔑 Strong foundation in OOP, DBMS, and Networking. 
-
-💡 Practical experience in building user-centric, scalable web applications. 
-
-⚖️ Focused approach to web development, balancing performance and user experience. 
-
-📈 Eagerness to learn and adapt to new technologies, without overstating broad skillsets. 
-
-
-⭐ Let’s Collaborate! 
-
-🌍 Currently looking for opportunities to apply my skills to real-world challenges and continue growing as a developer. 
-
-🎯 Focused on impactful, meaningful work that delivers results. 
-
-
-⭐ Contact / Meet Me: 
-
-📧 Email: webwithaman06@gmail.com 
-
-🐦 X/Twitter: https://x.com/webwithaman 
-
-📸 Instagram: https://www.instagram.com/webwithaman 
-
-📸 Facebook: https://www.facebook.com/webwithaman 
-
-💻 GitHub: https://github.com/webwithaman
+- 📧 Email: webwithaman06@gmail.com  
+- 🐦 [X/Twitter](https://x.com/webwithaman)  
+- 📸 [Instagram](https://www.instagram.com/webwithaman)  
+- 📸 [Facebook](https://www.facebook.com/webwithaman)  
+- 💻 [GitHub](https://github.com/webwithaman)  
 
 * 🌍  I'm based in India
 * ✉️  You can contact me at [webwithaman06@gmail.com](mailto:webwithaman06@gmail.com)
