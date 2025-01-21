@@ -7,11 +7,17 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Aspiring Software Developer 👨‍💻 | Passionate about building scalable web platforms 🚀
 
 ⭐ Key Skills & Technologies:
+
 ▪ Frontend: HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, ReactJS, Next.js 
+
 ▪ Backend: MERN Stack (MongoDB, Express.js, React, Node.js) 
+
 ▪ Programming Languages: C, C++, JavaScript 
+
 ▪ Core Concepts: Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating System (OS), Networking 
+
 ▪ Tools: Git, GitHub, Chrome DevTools, VS Code 
+
 ▪ Currently Exploring: TypeScript, Next.js, advanced React concepts 
 
 ⭐ What I Bring: 
