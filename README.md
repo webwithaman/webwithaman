@@ -6,6 +6,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 Aspiring Software Developer 👨‍💻 | Passionate about building scalable web platforms 🚀
 
+
 ⭐ Key Skills & Technologies:
 
 ▪ Frontend: HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, ReactJS, Next.js 
@@ -20,21 +21,34 @@ Aspiring Software Developer 👨‍💻 | Passionate about building scalable web
 
 ▪ Currently Exploring: TypeScript, Next.js, advanced React concepts 
 
+
 ⭐ What I Bring: 
 🔑 Strong foundation in OOP, DBMS, and Networking. 
+
 💡 Practical experience in building user-centric, scalable web applications. 
+
 ⚖️ Focused approach to web development, balancing performance and user experience. 
+
 📈 Eagerness to learn and adapt to new technologies, without overstating broad skillsets. 
 
+
 ⭐ Let’s Collaborate! 
+
 🌍 Currently looking for opportunities to apply my skills to real-world challenges and continue growing as a developer. 
+
 🎯 Focused on impactful, meaningful work that delivers results. 
 
+
 ⭐ Contact / Meet Me: 
+
 📧 Email: webwithaman06@gmail.com 
+
 🐦 X/Twitter: https://x.com/webwithaman 
+
 📸 Instagram: https://www.instagram.com/webwithaman 
+
 📸 Facebook: https://www.facebook.com/webwithaman 
+
 💻 GitHub: https://github.com/webwithaman
 
 * 🌍  I'm based in India
