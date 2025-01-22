@@ -1,9 +1,9 @@
-name: Update GitHub Profile README
+name: Update GitHub Profile README with Streak Stats
 
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs once a day
-  workflow_dispatch:
+  workflow_dispatch:      # Allow manual runs
 
 jobs:
   update-readme:
@@ -13,13 +13,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Update GitHub Streak Stats in README
+      - name: Fetch Streak Stats
+        id: streak_stats
         run: |
-          # Define the streak image URL
-          STREAK_IMAGE_URL="https://streak-stats.demolab.com?user=webwithaman&theme=black-ice&hide_border=true&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff"
+          # Fetch the image URL with the token
+          echo "Streak Image: https://github-readme-streak-stats.herokuapp.com/?user=webwithaman&stroke=ffffff&background=000000&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true&token=${{ secrets.GH_PAT }}" > streak.txt
 
-          # Use 'sed' to replace the second <img> tag in your README.md file with the updated streak image URL
-          sed -i '0,/<a href="http:\/\/www.github.com\/webwithaman"><img src=".*" \/>/s||<a href="http:\/\/www.github.com\/webwithaman"><img src="'"$STREAK_IMAGE_URL"'" \/>|' README.md
+      - name: Update README
+        run: |
+          # Replace the section between the comments
+          sed -i '/<!-- GITHUB-STREAK-STATS:START -->/,/<!-- GITHUB-STREAK-STATS:END -->/c\
+          <!-- GITHUB-STREAK-STATS:START -->\n<p align="center">\n<img src="https://github-readme-streak-stats.herokuapp.com/?user=webwithaman&stroke=ffffff&background=000000&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak Stats" />\n</p>\n<!-- GITHUB-STREAK-STATS:END -->' README.md
 
       - name: Commit Changes
         run: |
