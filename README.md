@@ -2,7 +2,6 @@
 
 # ✨ Aspiring Software Engineer 👨‍💻
 
----
 
 ## ⭐ Key Skills & Technologies:
 
@@ -13,7 +12,6 @@
 - **Tools**: Git, GitHub, Chrome DevTools, VS Code
 - **Currently Exploring**: TypeScript, Next.js, advanced React concepts
 
----
 
 ## ⭐ What I Bring:
 
@@ -22,14 +20,12 @@
 - ⚖️ Focused approach to web development, balancing performance and user experience.
 - 📈 Eagerness to learn and adapt to new technologies, without overstating broad skillsets.
 
----
 
 ## ⭐ Let’s Collaborate!
 
 - 🌍 Currently looking for opportunities to apply my skills to real-world challenges and continue growing as a developer.
 - 🎯 Focused on impactful, meaningful work that delivers results.
 
----
 
 ## ⭐ Contact / Meet Me:
 
