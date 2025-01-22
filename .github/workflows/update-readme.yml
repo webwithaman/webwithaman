@@ -13,10 +13,18 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Update GitHub Streak Stats in README
+      - name: Fetch and update README with streak stats
         run: |
-          curl -o ./README.md "https://streak-stats.demolab.com?user=webwithaman&theme=black-ice&hide_border=true&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&token=${{ secrets.GH_PAT }}"
+          # Get the current streak stats URL with your GitHub token (if needed)
+          STREAK_IMAGE_URL="https://streak-stats.demolab.com?user=webwithaman&theme=black-ice&hide_border=true&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff"
+
+          # Use 'sed' to replace the placeholder in your README.md with the updated image URL
+          sed -i 's|<--STREAK_IMAGE-->|![]('"$STREAK_IMAGE_URL"')|g' README.md
 
       - name: Commit Changes
         run: |
           git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update GitHub Streak Stats"
+          git push
