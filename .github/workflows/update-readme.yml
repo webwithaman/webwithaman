@@ -14,16 +14,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Fetch Streak Stats
-        id: streak_stats
         run: |
-          # Fetch the image URL with the token
-          echo "Streak Image: https://github-readme-streak-stats.herokuapp.com/?user=webwithaman&stroke=ffffff&background=000000&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true&token=${{ secrets.GH_PAT }}" > streak.txt
+          # Fetch the image URL using the token
+          streak_image_url="https://streak-stats.demolab.com/?user=webwithaman&theme=black-ice&hide_border=true&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&token=${{ secrets.GH_PAT }}"
 
-      - name: Update README
-        run: |
-          # Replace the section between the comments
+          # Replace the section in README.md with the streak image
           sed -i '/<!-- GITHUB-STREAK-STATS:START -->/,/<!-- GITHUB-STREAK-STATS:END -->/c\
-          <!-- GITHUB-STREAK-STATS:START -->\n<p align="center">\n<img src="https://github-readme-streak-stats.herokuapp.com/?user=webwithaman&stroke=ffffff&background=000000&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak Stats" />\n</p>\n<!-- GITHUB-STREAK-STATS:END -->' README.md
+          <!-- GITHUB-STREAK-STATS:START -->\n<p align="center">\n<img src="'$streak_image_url'" alt="GitHub Streak Stats" />\n</p>\n<!-- GITHUB-STREAK-STATS:END -->' README.md
 
       - name: Commit Changes
         run: |
