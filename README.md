@@ -41,12 +41,6 @@
 
 ---
 
-- 🌍  I'm based in India
-- ✉️  You can contact me at [webwithaman06@gmail.com](mailto:webwithaman06@gmail.com)
-- 🧠  I'm learning React.js, Next.js, Node.js, TypeScript
-
----
-
 ### Skills
 
 
