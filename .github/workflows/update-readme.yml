@@ -1,4 +1,4 @@
-name: Update README with GitHub Stats
+name: Update GitHub Profile README
 
 on:
   schedule:
@@ -13,16 +13,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Generate GitHub Stats
-        uses: anmol098/waka-readme-stats@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update GitHub Streak Stats in README
+        run: |
+          curl -o ./README.md "https://streak-stats.demolab.com?user=webwithaman&theme=black-ice&hide_border=true&ring=f97316&fire=f97316&currStreakNum=ffffff&currStreakLabel=f97316&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&token=${{ secrets.GH_PAT }}"
 
       - name: Commit Changes
         run: |
           git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
-          git add .
-          git commit -m "Update README with latest GitHub stats"
-          git push
