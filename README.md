@@ -4,7 +4,7 @@
 
 ---
 
-### ⭐ Key Skills & Technologies:
+## ⭐ Key Skills & Technologies:
 
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, ReactJS, Next.js
 - **Backend**: MERN Stack (MongoDB, Express.js, React, Node.js)
