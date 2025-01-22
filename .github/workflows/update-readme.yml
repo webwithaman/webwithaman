@@ -1,12 +1,13 @@
 name: Update GitHub Profile README with Streak Stats
 
 on:
-schedule: - cron: '0 0 \* \* \*' # Runs once a day
-workflow_dispatch: # Allow manual runs
+  schedule:
+    - cron: '0 0 * * *'  # Runs once a day
+  workflow_dispatch:      # Allow manual runs
 
 jobs:
-update-readme:
-runs-on: ubuntu-latest
+  update-readme:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
