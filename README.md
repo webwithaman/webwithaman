@@ -27,7 +27,8 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 ## ⭐ Contact / Meet Me:
 
-- 📧 Email: webwithaman06@gmail.com  
+- 📧 Email: webwithaman06@gmail.com
+- 🤵 [LinkedIn](https://www.linkedin.com/in/webwithaman)
 - 🐦 [X/Twitter](https://x.com/webwithaman)  
 - 📸 [Instagram](https://www.instagram.com/webwithaman)  
 - 📸 [Facebook](https://www.facebook.com/webwithaman)  
